@@ -1,0 +1,17 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-image: url("../img/clouds.jpg");
+    background-size: cover; /* Adjust to your needs */
+    background-position: center; /* Adjust to your needs */
+    /* Additional background properties can be added here */
+  }
+
+  .form-control {
+    background-color: #3dccb2af;
+    color: white;
+  }
+
+ 
