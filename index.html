@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+</head>
+<body>
+    <h1>Triangle Tracker</h1>
+    <p>Enter the lengths of the sides of a triangle to determine what type of triangle it is.</p>
+    <form>
+        <label for="side1">Side 1</label>
+        <input type="text" class="form-control" id="side1" placeholder="Enter side 1">
+        <label for="side2">Side 2</label>
+        <input type="text" class="form-control" id="side2" placeholder="Enter side 2">
+        <label for="side3">Side 3</label>
+        <input type="text" class="form-control" id="side3" placeholder="Enter side 3">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+        <button type="button" id="clear" class="btn btn-secondary">Clear Form</button>
+
+    <div id="output" class="hidden">
+        <p>Triangle Type: <span id="triangleType"></span> </p>
+        <img id="picture" src="" alt="no picture">
+    </div>
+</body>
+</html>
